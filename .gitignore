@@ -1,0 +1,30 @@
+# Node / Frontend dependencies
+backend/node_modules/
+frontend/node_modules/
+dist/
+build/
+.tsbuildinfo
+
+# Local Environment Credentials
+frontend/.env
+backend/.env
+.env.local
+.env.*.local
+*.env
+
+# SQLite local databases (legacy)
+*.db 
+*.db-journal
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
