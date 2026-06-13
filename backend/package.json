@@ -5,8 +5,9 @@
   "main": "server.ts",
   "type": "module",
   "scripts": {
-    "start": "tsx server.ts",
-    "dev": "tsx watch server.ts"
+    "start": "node dist/server.js",
+    "dev": "tsx watch server.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "cors": "^2.8.5",
